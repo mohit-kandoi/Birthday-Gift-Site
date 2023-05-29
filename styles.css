@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+  background: linear-gradient(#a2d2ff, grey);
+  color: #ffffff;
+}
+.avatar {
+  width: 150px;
+  border: 5px solid #efb0c9;
+  border-radius: 50%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+  background: #efb0c9;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#bday-date {
+  padding: 5px 10px;
+  background: #efb0c9;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-image-happy {
+  background-image: url('images/co1634c16a7917cf0e512a8e8/images/gift-cover.jpg');
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.gift-image-happy:hover {
+  background-image: url('images/co1634c16a7917cf0e512a8e8/images/200w.webp');
+}
+
+.gift-image-avatar {
+  background-image: url('images/co1634c16a7917cf0e512a8e8/images/gift-cover.jpg');
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.gift-image-avatar:hover {
+  background-image: url('images/download.jpg');
+}
+
+.gift-image-sexy {
+  background-image: url('images/co1634c16a7917cf0e512a8e8/images/gift-cover.jpg');
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.gift-image-sexy:hover {
+  background-image: url('images/sexy.jpg');
+}
+
+.gift-image-handsome {
+  background-image: url('images/co1634c16a7917cf0e512a8e8/images/gift-cover.jpg');
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.gift-image-handsome:hover {
+  background-image: url('images/handsome.jpg');
+}
+
+.gift-image-cheers {
+  background-image: url('images/co1634c16a7917cf0e512a8e8/images/gift-cover.jpg');
+  width: 400px;
+  height: 200px;
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.gift-image-cheers:hover {
+  background-image: url('images/gift.webp');
+}
+
+#gift-section,
+#gift-section-2,
+#gift-section-sexy,
+#gift-section-handsome,
+#gift-section-cheers {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 0;
+}
+.gift-hint {
+  margin-top: 10px;
+}
+a {
+  color: white;
+}
